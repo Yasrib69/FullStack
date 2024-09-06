@@ -1,0 +1,57 @@
+<!-- 
+Class: COSC 231.1
+Name: Yasrib Yasir Farook
+EID: E02726322
+Lab: 01
+Date: 2024-09-07 SAT T 23:59:59 Z-04:00
+Requires: no dependencies for this lab
+Description: Single HTML page where it displays heading and a table. The table includes text and images. The HTML code also includes internal CSS code. 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- The head tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_01</title>
+    <style>   /* Internal CSS code */
+          
+        body{      /* body fonts and alignment */
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: rgb(14, 17, 168);
+        }
+        h1{  /* header dimension */
+            margin-top: 30px;
+        }
+        hr{  /* horizontal rule dimension */
+            width:50%;
+            margin:20px auto;
+            border:1px solid black;
+        }
+        table{ /* table dimension */
+            width:50%;
+            margin:20px auto;
+            border-collapse: collapse;
+        }
+        td{   /* Single cell dimension */
+            border:1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head><!-- the closing header tag -->
+<body bgcolor="Lavender"> <!-- The body tag-->
+    <h1>TABLE OF COMPILATION</h1> <!-- the header tag-->
+    <table border ="2" cellspacing="2" cellpadding="30"> <!-- table tag with margin-->
+        <tr><!-- table row tag-->
+            <td><b>"Love the life you live. Live the life you love.”-
+                Bob Marley</b></td> <!-- The Text in the 1st column-->
+            <td><img src="bob.jpeg"></td> <!-- The image display from the source-->
+            <td><img src="life.jpeg"></td> <!-- The image display from the source-->
+        </tr><!-- the table row closing tag-->
+        
+    </table><!-- the closing table tag-->
+   
+</body> <!-- the closing body tag-->
+</html> <!-- the closing html tag-->
